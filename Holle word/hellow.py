@@ -43,10 +43,21 @@
 # else:
 #     print('The for loop is over')
 
-if __name__ == '__main__':
-    print('This program is being run by itself')
-else:
-    print('I am being imported from another module')
+# if __name__ == '__main__':
+#     print('This program is being run by itself')
+# else:
+#     print('I am being imported from another module')
+
+# print('你好 世界')
+
+# str = 'name: sex'
 
 
+# def func(name: '名字', sex: '性别' = '男') -> str:
+#     print("Annotations:", func.__annotations__)
+#     return name + ':' + sex
+#
+# print(func('嘿嘿'))
 
+knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+print(knights.items())
